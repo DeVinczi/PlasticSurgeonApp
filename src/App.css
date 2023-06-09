@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-    background: url('./assets/main-photo1-min.webp');
+    background: url('./assets/bg.png');
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -78,6 +78,15 @@
     font-size: 23px;
 }
 
+.p__opensans_updated {
+    font-family: var(--font-alt);
+    color: var(--color-white);
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+}
+
 .p__opensans {
     font-family: var(--font-alt);
     color: var(--color-white);
@@ -109,7 +118,8 @@
         line-height: 67px;
     }
 
-    .p__opensans {
+    .p__opensans,
+    .p__opensans_updated {
         font-size: 30px;
         line-height: 50px;
     }
@@ -157,13 +167,16 @@
         font-size: 21px;
     }
 
-    .p__opensans {
+    .p__opensans,
+    .p__opensans_updated {
         font-size: 14px;
     }
 }
 
 @media screen and (max-width: 450px) {
-    .p__opensans {
+
+    .p__opensans,
+    .p__opensans_updated {
         font-size: 12px;
     }
 

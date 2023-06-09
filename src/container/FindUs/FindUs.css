@@ -1,0 +1,37 @@
+.map__container iframe {
+    width: 600px;
+    height: 500px;
+    margin: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .map__container iframe {
+        width: 1000px;
+        height: 1000px;
+        margin: 3rem;
+        margin-top: 20rem;
+        margin-right: 25rem;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .map__container iframe {
+        width: 600px;
+        height: 500px;
+        margin: 3rem;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .map__container iframe {
+        width: 300px;
+        height: 300px;
+        margin: 3rem;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+}
