@@ -2,7 +2,6 @@ import React from 'react'
 import './FindUs.css'
 
 import { SubHeading } from '../../components';
-import { images } from '../../constants';
 
 const MapComponent = () => (
   <div className="map__container">

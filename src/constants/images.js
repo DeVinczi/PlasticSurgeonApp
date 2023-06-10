@@ -22,6 +22,8 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import logoKociszewski from '../assets/Logo-Kociszewski.png';
+import logoK from '../assets/Kociszewski.png'
 
 export default {
     breastOperation,
@@ -48,4 +50,6 @@ export default {
     sign,
     quote,
     gericht,
+    logoKociszewski,
+    logoK
 };
