@@ -16,7 +16,7 @@ const MapComponent = () => (
 
 const FindUs = () => {
   return (
-    <div className="app__bg app__wrapper section__padding" id="contact">
+    <div className="app__bg app__wrapper section__padding" style={{ display: 'flex', alignContent: 'center' }} id="contact">
       <div className="app__wrapper_info">
         <SubHeading title="Contact" />
         <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>FindUs</h1>
@@ -35,7 +35,7 @@ const FindUs = () => {
           Visit Me
         </button>
       </div>
-      <div className="app__wrapper-map">
+      <div className="app__wrapper-map" style={{ display: 'flex', alignContent: 'center' }}>
         <MapComponent />
       </div>
     </div>

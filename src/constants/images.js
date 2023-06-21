@@ -23,7 +23,13 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
 import logoKociszewski from '../assets/Logo-Kociszewski.png';
-import logoK from '../assets/Kociszewski.png'
+import logoK from '../assets/Kociszewski.png';
+import knf from '../assets/knf123.png';
+import knf2 from '../assets/knf-mirror.png';
+import knfbolder from '../assets/knf-bolder.png';
+import kociszewskiImage from '../assets/kociszewski-image.png';
+import kociszewskiImage2 from '../assets/kajetan-kociszewski.png';
+import K from '../assets/K.png';
 
 export default {
     breastOperation,
@@ -51,5 +57,11 @@ export default {
     quote,
     gericht,
     logoKociszewski,
-    logoK
+    logoK,
+    knf,
+    knf2,
+    K,
+    knfbolder,
+    kociszewskiImage,
+    kociszewskiImage2
 };

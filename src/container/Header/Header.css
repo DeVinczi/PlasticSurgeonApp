@@ -10,11 +10,27 @@
     text-transform: capitalize;
     line-height: 117px;
     font-size: 90px;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 2s forwards;
 }
 
 .app__header-img img {
     width: 80%;
 }
+
+.app__wrapper_img {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 2s forwards;
+}
+
+.app__wrapper_info p {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 2s forwards;
+}
+
 
 @media screen and (min-width: 2000px) {
     .app__header-h1 {
@@ -40,5 +56,29 @@
     .app__header-h1 {
         font-size: 50px;
         line-height: 70px;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

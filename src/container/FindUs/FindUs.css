@@ -1,12 +1,25 @@
 .app__wrapper-map {}
 
+.map__container iframe {
+    display: flex;
+    width: 800px;
+    height: 700px;
+    margin: 4rem;
+    margin-bottom: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 2000px) {
     .map__container iframe {
         display: flex;
         width: 800px;
         height: 700px;
         margin: 4rem;
-        align-items: left;
+        margin-bottom: 1rem;
+        align-items: center;
         justify-content: space-between;
         border: 5px solid black;
         border-radius: 10px;
@@ -17,7 +30,7 @@
     .map__container iframe {
         width: 540px;
         height: 500px;
-        margin: 3rem;
+        margin: 4rem;
         border: 5px solid black;
         border-radius: 10px;
     }
@@ -25,9 +38,9 @@
 
 @media screen and (max-width: 650px) {
     .map__container iframe {
-        width: 270px;
-        height: 270px;
-        margin: 3rem;
+        width: 260px;
+        height: 260px;
+        margin: 4rem;
         border: 5px solid black;
         border-radius: 10px;
     }
