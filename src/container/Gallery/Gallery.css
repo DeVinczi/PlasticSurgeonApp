@@ -34,7 +34,7 @@
     width: max-content;
     overflow-x: scroll;
     -ms-overflow-style: none;
-    scrollbar-width: none;  
+    scrollbar-width: none;
 }
 
 .app__gallery-images_container::-webkit-scrollbar {
@@ -85,7 +85,7 @@
 }
 
 .gallery__arrow-icon {
-    color: var(--color-golden);
+    color: var(--color-skin);
     font-size: 2rem;
     cursor: pointer;
     background: var(--color-black);
@@ -132,8 +132,8 @@
 @media screen and (max-width: 650px) {
     .app__gallery {
         padding: 4rem 0 4rem 2rem;
-    }  
-    
+    }
+
     .app__gallery-content {
         min-width: 100%;
     }

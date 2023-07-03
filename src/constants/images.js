@@ -30,9 +30,11 @@ import knfbolder from '../assets/knf-bolder.png';
 import kociszewskiImage from '../assets/kociszewski-image.png';
 import kociszewskiImage2 from '../assets/kajetan-kociszewski.png';
 import K from '../assets/K.png';
+import bg2 from '../assets/bg2.jpg'
 
 export default {
     breastOperation,
+    bg2,
     mainTheme,
     logo,
     bg,

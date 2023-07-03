@@ -1,10 +1,10 @@
 .app__header {
-    background-color: var(--color-black);
+    background-color: var(--color-grey);
 }
 
 .app__header-h1 {
     font-family: var(--font-base);
-    color: var(--color-golden);
+    color: var(--color-black);
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: capitalize;
@@ -17,6 +17,12 @@
 
 .app__header-img img {
     width: 80%;
+}
+
+.custom__button {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideInLeft 2s forwards;
 }
 
 .app__wrapper_img {

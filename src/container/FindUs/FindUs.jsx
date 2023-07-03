@@ -18,18 +18,18 @@ const FindUs = () => {
   return (
     <div className="app__bg app__wrapper section__padding" style={{ display: 'flex', alignContent: 'center' }} id="contact">
       <div className="app__wrapper_info">
-        <SubHeading title="Contact" />
-        <h1 className="headtext__cormorant" style={{ marginBottom: '3rem' }}>FindUs</h1>
+        <h1 className="headtext__cormorant" style={{ marginBottom: '0.5rem' }}>FindUs</h1>
         <div className="app__wrapper-contect">
-          <p className="p__cormorant" style={{ color: '#DCCA87', margin: '1rem 0' }}>Lokalizacja</p>
+          <p className="p__cormorant" style={{ color: '#ac9a87', margin: '1rem 0' }}>Lokalizacja</p>
           <p className="p__opensans">Bora Komorowskiego 85A</p>
-          <p className="p__cormorant" style={{ color: '#DCCA87', margin: '1rem 0' }}>Godziny otwarcia</p>
+          <p className="p__cormorant" style={{ color: '#ac9a87', margin: '1rem 0' }}>Godziny otwarcia</p>
           <p className="p__opensans">Pon-Pn: 10.00 - 20.00</p>
           <p className="p__opensans">Sb-Nd: 10.00 - 12.00</p>
-          <p className="p__cormorant" style={{ color: '#DCCA87', margin: '1rem 0' }}>Email</p>
+          <p className="p__cormorant" style={{ color: '#ac9a87', margin: '1rem 0' }}>Email</p>
           <p className="p__opensans_updated">kociszewski@gmail.com</p>
-          <p className="p__cormorant" style={{ color: '#DCCA87', margin: '1rem 0' }}>Telefon</p>
-          <p className="p__opensans_updated">+48 666 909 599</p>
+          <p className="p__cormorant" style={{ color: '#ac9a87', margin: '1rem 0' }}>Telefon</p>
+          <p className="p__opensans_updated find__us__telephone">
+            <a href="tel:+48666909599">+48 666 909 599</a></p>
         </div>
         <button type="button" className="custom__button" style={{ marginTop: '2rem' }}>
           Visit Me

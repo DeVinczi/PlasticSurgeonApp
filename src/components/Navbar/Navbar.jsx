@@ -27,7 +27,7 @@ const Navbar = () => {
                 <a href="/" className='p__opensans'>Umów wizytę</a>
             </div>
             <div className='app__navbar-smallscreen'>
-                <GiHamburgerMenu color="#ffffff" fontSize={27} onClick={() => setToggleMenu(true)} />
+                <GiHamburgerMenu color="#ac9a87" fontSize={27} onClick={() => setToggleMenu(true)} />
 
                 {toggleMenu && (
                     <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">

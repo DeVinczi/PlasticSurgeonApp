@@ -30,9 +30,7 @@ const Footer = () => {
 
         <div className="app__footer-links_logo">
           <img src={images.logoK} alt="footer_logo" />
-          <p className="p__opensans">"The best way to find yourself is to lose yourself in the service of others"</p>
-          <img src={images.knf2} alt="spoon" className="spoon__img" style={{ marginTop: 15 }} />
-
+          <p className="p__opensans" style={{ color: '#ffffff' }}>"The best way to find yourself is to lose yourself in the service of others"</p>
         </div>
       </div>
     </div>

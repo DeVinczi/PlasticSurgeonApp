@@ -1,13 +1,15 @@
-.app__footer_info {
+.app__footer_info_sec {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: var(--color-black);
-    color: var(--color-black);
+    color: var(--color-white);
 }
 
-.app__footer-links_work {
-    color: white;
+.app_footer-copyright {
+    display: flex;
+    text-align: center;
+    
 }
 
 .app__footer-links_work p {
