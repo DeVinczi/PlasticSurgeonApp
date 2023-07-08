@@ -21,7 +21,7 @@
     justify-content: space-between;
     align-items: center;
 
-    min-height: 100vh;
+    min-height: 95vh;
 }
 
 .app__wrapper_info {
@@ -53,7 +53,7 @@
 }
 
 .custom__button {
-    background-color: var(--color-black);
+    background-color: var(--color-skin);
     color: var(--color-white);
     font-family: var(--font-base);
     font-weight: 700;
@@ -65,11 +65,13 @@
     border: none;
     outline: none;
     cursor: pointer;
+    white-space: nowrap;
+    border-radius: 1rem;
 }
 
 .action-button {
     display: inline-block;
-    background-color: var(--color-black);
+    background-color: var(--color-skin);
     color: #fff;
     border: none;
     text-align: center;
@@ -92,7 +94,7 @@
 /* Button hover animation */
 .action-button:hover,
 .action-button__galery:hover {
-    background-color: var(--color-skin);
+    background-color: var(--color-skin-hover);
 }
 
 .p__cormorant {
@@ -107,7 +109,7 @@
 }
 
 .p__opensans_updated {
-    font-family: var(--font-alt);
+    font-family: var(--font-poppins);
     color: var(--color-black);
     font-weight: 400;
     letter-spacing: 0.04em;
@@ -116,7 +118,7 @@
 }
 
 .p__opensans {
-    font-family: var(--font-alt);
+    font-family: var(--font-poppins);
     color: var(--color-black);
     font-weight: 400;
     letter-spacing: 0.04em;
@@ -126,7 +128,7 @@
 }
 
 .p__opensans_links {
-    font-family: var(--font-alt);
+    font-family: var(--font-poppins);
     color: var(--color-black);
     font-weight: 400;
     letter-spacing: 0.04em;
@@ -174,10 +176,6 @@
         font-size: 150px;
         line-height: 210px;
     }
-
-    .spoon__img {
-        width: 80px;
-    }
 }
 
 @media screen and (max-width: 1150px) {
@@ -186,7 +184,7 @@
     }
 
     .app__wrapper_img {
-        margin: 5rem 0 0 0;
+        margin: 3rem 0 0 0;
     }
 
     .app__wrapper_img-reverse {
@@ -233,5 +231,9 @@
     .headtext__cormorant {
         font-size: 45px;
         line-height: 70px;
+    }
+
+    .custom__button {
+        font-size: 15px;
     }
 }

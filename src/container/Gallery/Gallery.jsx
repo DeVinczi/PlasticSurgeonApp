@@ -21,10 +21,10 @@ const Gallery = () => {
   return (
     <div className="app__gallery flex__center">
       <div className="app__gallery-content">
-        <SubHeading title="Instagram" />
-        <h1 className="headtext__cormorant__returned">Photo Gallery</h1>
+        <SubHeading title="Galeria" />
+        <h1 className="headtext__cormorant__returned">Transformacje</h1>
         <p className="p__opensans" style={{ color: '#AAAAAA', marginTop: '2rem' }}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat mattis ipsum turpis elit elit scelerisque egestas mu.</p>
-        <button type="button" className="custom__button action-button__galery">View More</button>
+        <button type="button" className="p__opensans custom__button action-button__galery">Pokaż więcej</button>
       </div>
       <div className="app__gallery-images">
         <div className="app__gallery-images_container" ref={scrollRef}>

@@ -4,6 +4,7 @@ import Footer from './Footer/Footer';
 import Header from './Header/Header';
 import Gallery from './Gallery/Gallery';
 import Infos from './Infos/Infos';
+import InfoNavbar from './InfoNavbar/InfoNavbar'
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Footer,
     Header,
     Gallery,
-    Infos
+    Infos,
+    InfoNavbar
 }

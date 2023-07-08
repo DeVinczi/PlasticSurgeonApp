@@ -12,11 +12,12 @@ const Navbar = () => {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-                <a href="home"><img src={images.logoK} alt="app_logo" /></a>
+                <a href="home"><img src={images.logoWhite} alt="app_logo" /></a>
             </div>
-            <ul className='app__navbar-links'>
-                <li className='p__opensans'></li>
+            <ul className="app__navbar-links">
+                <li className='p__opensans'><a href="oferta">Oferta</a></li>
                 <li className='p__opensans'><a href="konsultacja-online">Konsultacja </a></li>
+                <li className='p__opensans'><a href="cennik">Cennik</a></li>
                 <li className='p__opensans'><a href="metamorfozy">Metamorfozy</a></li>
                 <li className='p__opensans'><a href="o-mnie">O Mnie</a></li>
                 <li className='p__opensans'><a href="kontakt">Kontakt</a></li>
@@ -24,7 +25,7 @@ const Navbar = () => {
             <div className='app__navbar-login'>
                 <a href="/login" className='p__opensans'></a>
                 <div />
-                <a href="/" className='p__opensans'>Umów wizytę</a>
+                <a href="/" className='p__opensans custom__button action-button' style={{ color: '#ffffff' }}>Umów wizytę</a>
             </div>
             <div className='app__navbar-smallscreen'>
                 <GiHamburgerMenu color="#ac9a87" fontSize={27} onClick={() => setToggleMenu(true)} />
@@ -35,6 +36,7 @@ const Navbar = () => {
                         <ul className='app__navbar-smallscreen_links'>
                             <li className='p__opensans'><a href="home">Home</a></li>
                             <li className='p__opensans'><a href="konsultacja-online">Konsultacja</a></li>
+                            <li className='p__opensans'><a href="cennik">Cennik</a></li>
                             <li className='p__opensans'><a href="metamorfozy">Metamorfozy</a></li>
                             <li className='p__opensans'><a href="o-mnie">O Mnie</a></li>
                             <li className='p__opensans'><a href="kontakt">Kontakt</a></li>

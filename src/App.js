@@ -1,5 +1,5 @@
 import React from 'react'
-import { Gallery, AboutUs, FindUs, Footer, Header, Infos } from './container'
+import { Gallery, AboutUs, FindUs, Footer, Header, Infos, InfoNavbar } from './container'
 import { Navbar } from './components'
 
 import './App.css'
@@ -7,6 +7,7 @@ import './App.css'
 const App = () => {
     return (
         <div>
+            <InfoNavbar />
             <Navbar />
             <Header />
             <AboutUs />

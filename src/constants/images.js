@@ -31,9 +31,14 @@ import kociszewskiImage from '../assets/kociszewski-image.png';
 import kociszewskiImage2 from '../assets/kajetan-kociszewski.png';
 import K from '../assets/K.png';
 import bg2 from '../assets/bg2.jpg'
+import logoWhite from '../assets/kociszewski-logo-white.png';
+import logoBlack from '../assets/Logo-Kociszewski-better.png';
+
 
 export default {
     breastOperation,
+    logoWhite,
+    logoBlack,
     bg2,
     mainTheme,
     logo,

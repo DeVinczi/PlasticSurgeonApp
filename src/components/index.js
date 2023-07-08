@@ -5,5 +5,5 @@ import FooterOverlay from "./Footer/FooterOverlay";
 export {
     Navbar,
     SubHeading,
-    FooterOverlay
+    FooterOverlay,
 }
