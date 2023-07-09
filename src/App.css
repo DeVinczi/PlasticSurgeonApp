@@ -261,4 +261,11 @@
     .custom__button {
         font-size: 15px;
     }
+
+    .app__wrapper_img {
+        margin: 1rem 0 0 0;
+        min-height: 200px;
+        max-height: auto;
+        float: left;
+    }
 }
