@@ -16,7 +16,7 @@ const FindUs = () => {
   return (
     <div className="app__bg app__wrapper section__padding" style={{ display: 'flex', alignContent: 'center' }} id="contact">
       <div className="app__wrapper_info">
-        <h1 className="headtext__cormorant" style={{ marginBottom: '0.5rem' }}>Znajdź mnie</h1>
+        <h1 className="headtext__cormorant" style={{ marginBottom: '2rem' }}>Znajdź mnie</h1>
         <div className="app__wrapper-contect">
           <p className="p__cormorant" style={{ color: '#ac9a87', margin: '1rem 0' }}>Lokalizacja</p>
           <p className="p__opensans">Bora Komorowskiego 85A</p>

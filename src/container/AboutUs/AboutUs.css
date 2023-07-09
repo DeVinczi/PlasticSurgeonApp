@@ -20,11 +20,11 @@
 
 .app__aboutus-content_about {
     flex: 1;
+    opacity: 0;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     flex-direction: column;
-
     text-align: right;
 }
 
@@ -39,12 +39,26 @@
 
 .app__aboutus-content_history {
     flex: 1;
+    opacity: 0;
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column;
-
     text-align: left;
+}
+
+.app__aboutus-content_history.slide-in {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 3s forwards;
+    transition: transform 3s ease-in-out;
+}
+
+.app__aboutus-content_about.slide-in {
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInLeft 3s forwards;
+    transition: transform 3s ease-in-out;
 }
 
 .app__aboutus-content_about p,
@@ -87,5 +101,29 @@
     .app__aboutus-overlay img {
         width: 80%;
         height: 320px;
+    }
+}
+
+@keyframes slideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
     }
 }

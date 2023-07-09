@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     min-height: 95vh;
 }
 
@@ -39,7 +38,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-left: 2rem;
 }
 
@@ -69,6 +67,29 @@
     border-radius: 1rem;
 }
 
+.custom__button-small {
+    background-color: var(--color-skin);
+    color: var(--color-white);
+    font-family: var(--font-base);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 20px;
+    padding: 1rem 3rem;
+    margin: 3rem;
+    border-radius: 1px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+}
+
+.custom__button-small:hover {
+    background-color: var(--color-skin-hover);
+}
+
 .action-button {
     display: inline-block;
     background-color: var(--color-skin);
@@ -79,6 +100,7 @@
     cursor: pointer;
     transition: background-color 0.3s;
 }
+
 
 .action-button__galery {
     display: inline-block;
@@ -95,6 +117,10 @@
 .action-button:hover,
 .action-button__galery:hover {
     background-color: var(--color-skin-hover);
+}
+
+.app__navbar-smallscreen_links li a:hover {
+    color: blanchedalmond;
 }
 
 .p__cormorant {
@@ -154,10 +180,6 @@
     text-transform: capitalize;
 }
 
-.spoon__img {
-    width: 45px;
-}
-
 @media screen and (min-width: 2000px) {
 
     .custom__button,
@@ -185,6 +207,9 @@
 
     .app__wrapper_img {
         margin: 3rem 0 0 0;
+        min-height: 330px;
+        max-height: auto;
+        float: left;
     }
 
     .app__wrapper_img-reverse {

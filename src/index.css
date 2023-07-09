@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700&display=swap');
+@import './constants/Fonts/fonts-cormorant.css';
+@import './constants/Fonts/fonts-nunito.css';
+
 
 :root {
     --font-base: 'Cormorant Upright', serif;
@@ -20,6 +21,7 @@
     --color-blue: #3b5998;
     --color-red: #e4405f;
     --color-skin-hover: #614e3d;
+    --color-menu: #152945;
 }
 
 * {
@@ -34,31 +36,32 @@ a {
     text-decoration: none;
 }
 
-.slide-bottom {
-    -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+.slide-left {
+    position: relative;
+    animation: slideLeft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
-@-webkit-keyframes slide-bottom {
+@keyframes slideLeft {
     0% {
-        -webkit-transform: translateY(-25%);
-        transform: translateY(-25%);
+        left: 0%;
     }
 
     100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
+        left: 100%;
     }
 }
 
-@keyframes slide-bottom {
+.slide-right {
+    position: relative;
+    animation: slideInRight 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slideInRight {
     0% {
-        -webkit-transform: translateY(-25%);
-        transform: translateY(-25%);
+        left: 100%;
     }
 
     100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
+        left: 0%;
     }
 }
