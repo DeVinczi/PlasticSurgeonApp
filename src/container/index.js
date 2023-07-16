@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import Gallery from './Gallery/Gallery';
 import Infos from './Infos/Infos';
 import InfoNavbar from './InfoNavbar/InfoNavbar'
+import Pricing from './Pricing/Pricing'
 
 
 export {
@@ -14,5 +15,6 @@ export {
     Header,
     Gallery,
     Infos,
-    InfoNavbar
+    InfoNavbar,
+    Pricing
 }

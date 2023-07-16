@@ -34,7 +34,7 @@ const Navbar = () => {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-                <a href="home">
+                <a href="/">
                     <img src={images.logoWhite} alt="app_logo" />
                 </a>
             </div>

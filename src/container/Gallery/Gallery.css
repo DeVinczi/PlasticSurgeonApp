@@ -43,7 +43,7 @@
 
 .app__gallery-images_card {
     position: relative;
-    min-width: 301px;
+    min-width: 450px;
     height: 447px;
     margin-right: 2rem;
 }

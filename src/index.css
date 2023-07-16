@@ -6,12 +6,14 @@
     --font-base: 'Cormorant Upright', serif;
     --font-alt: 'Open Sans', sans-serif;
     --font-poppins: 'Nunito', sans-serif;
+    --font-heading: 'Playfair Display, Georgia, Times New Roman, Times, serif';
 
     --color-orange: #e3b077;
     --color-skin: #ac9a87;
     --color-golden: #DCCA87;
     --color-black: #0C0C0C;
     --color-gray: #545454;
+    --color-gray-bg: #E0E0E0;
     --color-crimson: #F5EFDB;
     --color-grey: #e0e0e0;
     --color-white: #FFFFFF;

@@ -1,11 +1,14 @@
 import React from 'react'
+import { InfoNavbar } from '../../container'
+import { Navbar } from '..'
 
-const ContactMe = () => {
+function ContactMePage() {
     return (
-        <div>
-
+        <div class="ContactMePage">
+            <InfoNavbar />
+            <Navbar />
         </div>
-    )
+    );
 }
 
-export default ContactMe
+export default ContactMePage
