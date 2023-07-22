@@ -1,0 +1,13 @@
+.app__offer_header {
+    display: flex;
+    justify-content: center;
+}
+
+.p__opensans.offer-style-it {
+    margin: 5rem;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: var(--font-alt);
+    margin-bottom: 2rem;
+    color: rgb(43, 41, 41);
+}

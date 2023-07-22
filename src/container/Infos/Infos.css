@@ -1,0 +1,34 @@
+.app__footer_info_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-black);
+    color: var(--color-white);
+}
+
+.app_footer-copyright {
+    display: flex;
+    text-align: center;
+
+}
+
+.app__footer-links_work p {
+    flex: 1;
+    display: inline-block;
+    align-items: center;
+    white-space: nowrap;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+@media screen and (max-width:1150px) {
+    .app__footer-links_work p {}
+}
+
+@media screen and (max-width:650px) {
+    .app__footer-links_work p {}
+}
+
+@media screen and (max-width:350px) {
+    .app__footer-links_work p {}
+}

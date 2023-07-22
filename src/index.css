@@ -1,0 +1,69 @@
+@import './constants/Fonts/fonts-cormorant.css';
+@import './constants/Fonts/fonts-nunito.css';
+
+
+:root {
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+    --font-poppins: 'Nunito', sans-serif;
+    --font-heading: 'Playfair Display, Georgia, Times New Roman, Times, serif';
+
+    --color-orange: #e3b077;
+    --color-skin: #ac9a87;
+    --color-golden: #DCCA87;
+    --color-black: #0C0C0C;
+    --color-gray: #545454;
+    --color-gray-bg: #E0E0E0;
+    --color-crimson: #F5EFDB;
+    --color-grey: #e0e0e0;
+    --color-white: #FFFFFF;
+    --color-royal-blue: #146fe6;
+    --color-black-2: #1c1c1d;
+    --color-yellow: #E3B077;
+    --color-blue: #3b5998;
+    --color-red: #e4405f;
+    --color-skin-hover: #614e3d;
+    --color-menu: #152945;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+.slide-left {
+    position: relative;
+    animation: slideLeft 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slideLeft {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 100%;
+    }
+}
+
+.slide-right {
+    position: relative;
+    animation: slideInRight 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slideInRight {
+    0% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0%;
+    }
+}
