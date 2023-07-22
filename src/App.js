@@ -5,7 +5,7 @@ import ConsultationPage from './components/Consultation/ConsultationPage.jsx';
 import OfferPage from './components/Offer/OfferPage.jsx';
 import MethamorphosisPage from './components/Methamorphosis/MethamorphosisPage.jsx';
 import PricePage from './components/Price/PricePage.jsx'
-import ContactMePage from './components/ContactMe/ContactMe.jsx';
+import ContactMePage from './components/ContactMePage/ContactMe.jsx';
 import RulesOfServicePage from './components/RulesOfService/RulesOfServicePage.jsx';
 import PrivacyPolicyPage from './components/PrivacyPolicy/PrivacyPolicy.jsx';
 import CookiesPolicyPage from './components/CookiesPolicy/CookiesPolicyPage.jsx';
@@ -18,7 +18,7 @@ import './App.css'
 
 const App = () => {
     return (
-        <div className="App">
+        <div className="App" style={{ overflow: 'hidden' }}>
             <Routes>
                 <Route path="/" element={<HomePage />} />
                 <Route path="oferta" element={<OfferPage />}></Route>

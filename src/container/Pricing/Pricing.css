@@ -1,5 +1,6 @@
 .pricing__header {
     background-color: var(--color-gray-bg);
+    min-height: 1000px;
 }
 
 .pricing__context {

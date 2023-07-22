@@ -6,9 +6,10 @@ function slideInOnScroll() {
     const div = document.querySelector('.app__aboutus-content_history');
     const divSec = document.querySelector('.app__aboutus-content_about');
     const windowHeight = window.innerHeight;
+    const windowLength = window.innerWidth
     const divOffset = div.offsetTop;
 
-    if (window.screenY > divOffset - windowHeight) {
+    if (window.screenY > divOffset - windowHeight || window.screenX > divOffset - windowLength) {
         div.classList.add('slide-in');
         divSec.classList.add('slide-in');
     }

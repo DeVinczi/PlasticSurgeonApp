@@ -17,7 +17,13 @@
     cursor: pointer;
 }
 
+.p__findus {
+    margin: 0.5rem 0;
+    margin-top: 2.5rem;
+}
+
 @media screen and (max-width: 2000px) {
+
     .map__container iframe {
         display: flex;
         width: 800px;
@@ -45,6 +51,11 @@
         height: 260px;
         border: 1px solid black;
         border-radius: 10px;
+    }
+
+    .p__findus {
+        margin: 0.2rem 0;
+        margin-top: 1.5rem;
     }
 }
 

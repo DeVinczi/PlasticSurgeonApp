@@ -13,7 +13,9 @@
 .styled-table th {
     background-color: #009879;
     color: #ffffff;
+    text-transform: uppercase;
 }
+
 
 .styled-table th,
 .styled-table td {
@@ -29,12 +31,51 @@
 }
 
 .styled-table th:nth-child(4) {
-    text-align: right;
+    text-align: center;
+    padding: 2rem;
 }
 
 .styled-table td:nth-child(4) {
-    text-align: right;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.95rem;
     text-transform: lowercase;
+}
+
+.name__td {
+    font-size: larger;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 50%;
+}
+
+.count__td {
+    font-size: 0.9em;
+    width: 10%;
+}
+
+.content__td {
+    text-transform: none;
+    font-weight: 400;
+    width: 50%;
+}
+
+.th__name {
+    width: 50%;
+}
+
+.th__area {
+    width: 20%;
+    overflow-wrap: break-word;
+}
+
+.th__count {
+    width: 15%;
+}
+
+.th__price {
+    width: 10%;
+    overflow-wrap: break-word;
 }
 
 .styled-table tbody tr {
@@ -50,6 +91,24 @@
 }
 
 .styled-table tbody tr.active-row {
-    font-weight: bold;
-    color: #009879;
+    font-weight: 300;
+
 }
+
+.basic__tr {
+    cursor: pointer;
+}
+
+@media screen and (max-width:1150px) {}
+
+@media screen and (max-width:650px) {
+    .styled-table {
+        font-size: 0.8em;
+    }
+
+    .styled-table td:nth-child(4) {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:350px) {}

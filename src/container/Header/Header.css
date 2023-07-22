@@ -1,11 +1,21 @@
 .app__header {
-    background-color: var(--color-grey);
+    background-color: #F5F5F5;
+}
+
+.app__header.section__padding {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
 }
 
 .app__header-h1 {
     font-family: var(--font-poppins);
     color: var(--color-black);
     font-weight: 700;
+    margin-top: 2rem;
     letter-spacing: 0.04em;
     text-transform: capitalize;
     line-height: 117px;
@@ -15,8 +25,10 @@
     animation: slideInLeft 2s forwards;
 }
 
-.app__header-img img {
-    width: 80%;
+.app__wrapper_info-header {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7rem;
 }
 
 .custom__button {
@@ -25,13 +37,7 @@
     animation: slideInLeft 2s forwards;
 }
 
-.app__wrapper_img {
-    opacity: 0;
-    transform: translateX(100%);
-    animation: slideInRight 2s forwards;
-}
-
-.app__wrapper_info p {
+.app__wrapper_info-header p {
     opacity: 0;
     transform: translateX(100%);
     animation: slideInRight 2s forwards;
@@ -47,7 +53,16 @@
 
 @media screen and (max-width: 1150px) {
     .app__header-h1 {
-        font-size: 60px;
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .app__header.section__padding {
+        background-size: cover;
+        background-attachment: local;
+        min-height: 100vh;
+        background-position-x: 40%;
     }
 }
 
@@ -58,20 +73,19 @@
 
     .app__header {
         margin-top: 3.5rem;
+
     }
 }
 
 @media screen and (max-width: 450px) {
     .app__header-h1 {
-        font-size: 34px;
+        font-size: 44px;
         line-height: 70px;
         max-width: fit-content;
-        width: 340px
     }
 
-    .app__wrapper_img {
-        margin: 1rem;
-        min-height: 130px;
+    .app__navbar-smallscreen-address {
+        align-items: center;
     }
 }
 

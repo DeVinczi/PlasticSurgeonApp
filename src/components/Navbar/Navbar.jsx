@@ -83,7 +83,7 @@ const Navbar = () => {
                         />
                         <ul className="app__navbar-smallscreen_links">
                             <li className="p__opensans">
-                                <a href="home">
+                                <a href="/">
                                     <img src={images.logoK} alt="app_logo-small" />
                                 </a>
                             </li>

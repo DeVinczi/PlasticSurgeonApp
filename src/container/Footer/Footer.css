@@ -25,17 +25,26 @@
     padding: 0 2rem;
 }
 
+.app__footer_znany {
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.app__footer_znany:hover {
+    color: var(--color-skin)
+}
+
+.app__footer-links_contact {
+    align-self: center;
+}
+
 .app__footer-links_contact,
 .app__footer-links_logo,
 .app__footer-links_work {
     flex: 1;
     margin: 1rem;
     text-align: center;
-}
 
-.app__footer-links_logo img:first-child {
-    width: 210px;
-    margin-bottom: 0.75rem;
 }
 
 .app__footer-links_icons {
@@ -59,17 +68,34 @@
     color: var(--color-skin);
     font-weight: 400;
     letter-spacing: 0.04em;
-    text-transform: capitalize;
+    text-transform: none;
     font-size: 32px;
     line-height: 41.6px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.6rem;
 }
 
 .footer__copyright {
     margin-top: 2rem;
     display: inline-block;
     flex-direction: column;
+}
 
+.app__footer-links_logo {
+    display: flex
+}
+
+.app__footer-first-links {
+    margin-right: 2rem;
+    white-space: nowrap;
+}
+
+.app__footer-second-links {
+    margin-left: 2rem;
+}
+
+.p__cormorant.nomargin-text-footer-sec,
+.p__cormorant.nomargin-text-footer {
+    margin: 1.5rem 0 0.5rem;
 }
 
 @media screen and (min-width: 2000px) {
@@ -87,11 +113,25 @@
     }
 
     .app__footer-links_contact,
-    .app__footer-links_logo,
     .app__footer-links_work {
-        margin: 2rem 0;
+        margin: 2rem 0 1rem;
         width: 100%;
     }
+
+    .app__footer-links_logo {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .app__footer-first-links {
+        margin-right: 2rem;
+    }
+
+    .app__footer-second-links {
+        margin-left: 2rem;
+    }
+
 }
 
 @media screen and (max-width:650px) {
@@ -100,10 +140,27 @@
         border-bottom: 2px solid gray;
         margin: 0;
     }
-}
 
-@media screen and (max-width:350px) {
-    .app__footer-links_logo img:first-child {
-        width: 80%;
+    .app__footer-first-links {
+        margin: 0;
+    }
+
+    .app__footer-links_logo {
+        flex-direction: column;
+    }
+
+    .app__footer-second-links {
+        margin: 0;
+    }
+
+    .p__cormorant.nomargin-text-footer-sec,
+    .p__cormorant.nomargin-text-footer {
+        margin: 1rem 0 0 0;
+    }
+
+    .p__cormorant.nomargin-text-footer:first-child {
+        margin: 0;
     }
 }
+
+@media screen and (max-width:350px) {}

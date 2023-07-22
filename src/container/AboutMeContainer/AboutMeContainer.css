@@ -1,0 +1,78 @@
+.app__about__me__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-it-about-me {
+    margin: 2rem;
+}
+
+.app__about__me-kociszewski {
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.style-it-about-me {
+    max-width: 40%;
+    text-align: left;
+    opacity: 0;
+    transform: translateX(100%);
+    animation: slideInRight 3s forwards;
+    transition: transform 3s ease-in-out;
+}
+
+.app__about__me__container h1 {
+    margin-top: 1rem;
+    font-size: 100px;
+    font-weight: 400;
+    font-family: var(--font-alt);
+    margin-bottom: 2rem;
+    color: rgb(43, 41, 41);
+}
+
+.p__opensans.style-it-about-me h1 {
+    margin: 1rem;
+}
+
+.p__opensans.style-it-about-me p {
+    margin: 2rem;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .app__about__me__container h1 {
+        font-size: 80px;
+        font-weight: 400;
+        font-family: var(--font-alt);
+        margin-bottom: 1rem;
+        color: rgb(43, 41, 41);
+    }
+
+    .app__about__me__container {
+        flex-direction: column;
+    }
+
+    .app__about__me-kociszewski {
+        margin-top: 4rem;
+    }
+
+    .style-it-about-me {
+        max-width: 100%;
+    }
+
+    .app__about__me-kociszewski {
+        max-width: 90%;
+        max-height: fit-content;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .app__about__me__container h1 {
+        font-size: 60px;
+        font-weight: 400;
+        font-family: var(--font-alt);
+        margin-bottom: 1rem;
+        color: rgb(43, 41, 41);
+    }
+}

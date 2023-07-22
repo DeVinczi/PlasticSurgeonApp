@@ -1,0 +1,150 @@
+.app__contact__me {
+    margin-bottom: 3rem;
+}
+
+.app__contact__me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.header__contact-me {
+    font-size: 100px;
+    font-weight: 400;
+    font-family: var(--font-alt);
+    margin-bottom: 2rem;
+    color: rgb(43, 41, 41);
+}
+
+.p__opensans.style-it {
+    font-size: 1.7em;
+    letter-spacing: 0.08em;
+    color: rgb(43, 41, 41);
+    text-decoration: none;
+}
+
+.style-it-sec {
+    margin-top: 3rem;
+}
+
+.p__opensans.style-it-sec {
+    font-size: 1.2em;
+}
+
+.p__opensans.style-it-third {
+    margin-top: 0.5rem;
+    font-size: 1.2em;
+}
+
+.app__contact_me-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.app__contact_me-email {
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+.app__contact_me-email:hover {
+    color: var(--color-skin)
+}
+
+.app__info__phone__together {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.08em;
+    color: rgb(43, 41, 41);
+    margin: 0.5rem;
+}
+
+.app__contact-wrapper {
+    display: flex;
+    margin-top: 2.5rem;
+    justify-content: center;
+}
+
+.app__contact-wrapper p {
+    display: flex;
+    margin: 0 2rem;
+
+}
+
+.app__ppp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+
+.custom__button.action-button__contact-me {
+    margin-top: 1rem;
+    display: inline-block;
+    border: 2px solid black;
+    background-color: var(--color-white);
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    opacity: 1;
+    padding: 0.9rem 2.2rem;
+    transform: translateX(0);
+    animation: none;
+    font-weight: bold;
+}
+
+.custom__button.action-button__contact-me:hover {
+    background-color: #111010;
+    color: white
+}
+
+.app__contact__building {
+    width: 60%;
+    max-height: 500px;
+}
+
+.p__opensans.style-it-fourth {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 650px) {
+    .app__contact__me {
+        margin-top: 4rem;
+    }
+
+    .header__contact-me {
+        font-size: 80px;
+    }
+
+    .p__opensans.style-it {
+        text-align: center;
+    }
+
+    .app__ppp {
+        margin: 0;
+    }
+
+    .app__contact__building {
+        width: 50%;
+        max-height: 230px;
+        max-width: 230px;
+    }
+
+
+    .custom__button.action-button__contact-me {
+        padding: 0.5rem 1.5rem;
+    }
+
+    .app__contact-wrapper p {
+        margin: 0 1.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {}

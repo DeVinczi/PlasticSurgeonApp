@@ -45,6 +45,7 @@
     align-items: flex-start;
     flex-direction: column;
     text-align: left;
+
 }
 
 .app__aboutus-content_history.slide-in {
@@ -78,10 +79,13 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1150px) {
     .app__aboutus-content {
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 900px) {
 
     .app__aboutus-content_knife {
         margin: 4rem 0;
@@ -101,6 +105,23 @@
     .app__aboutus-overlay img {
         width: 80%;
         height: 320px;
+    }
+
+    .app__aboutus-content_knife img {
+        height: 250px;
+        border-radius: 2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .app__aboutus-content_history {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    .app__aboutus-content_about {
+        opacity: 1;
+        transform: translateX(0);
     }
 }
 

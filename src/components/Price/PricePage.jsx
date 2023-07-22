@@ -1,7 +1,8 @@
 import React from 'react'
-import { InfoNavbar } from '../../container'
+import { Footer, InfoNavbar } from '../../container'
 import { Navbar } from '..'
 import Pricing from '../../container/Pricing/Pricing';
+import Infos from '../../container/Infos/Infos'
 
 function PricePage() {
     return (
@@ -9,6 +10,8 @@ function PricePage() {
             <InfoNavbar />
             <Navbar />
             <Pricing />
+            <Footer />
+            <Infos />
         </div>
     );
 }
