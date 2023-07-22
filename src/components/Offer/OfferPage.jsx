@@ -5,7 +5,7 @@ import Offerheader from '../../container/OfferHeader/OfferHeader';
 
 function OfferPage() {
     return (
-        <div class="offerPage">
+        <div className="offerPage">
             <InfoNavbar />
             <Navbar />
             <Offerheader />

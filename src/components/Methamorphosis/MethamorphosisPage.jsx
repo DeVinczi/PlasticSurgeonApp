@@ -4,7 +4,7 @@ import { Navbar } from '..'
 
 function MethamorphosisPage() {
     return (
-        <div class="MethamorphosisPage">
+        <div className="MethamorphosisPage">
             <InfoNavbar />
             <Navbar />
         </div>

@@ -5,7 +5,7 @@ import Infos from '../../container/Infos/Infos'
 
 function AboutMePage() {
     return (
-        <div class="AboutMePage">
+        <div className="AboutMePage">
             <InfoNavbar />
             <Navbar />
             <AboutMeContainer />

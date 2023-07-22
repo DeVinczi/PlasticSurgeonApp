@@ -13,7 +13,7 @@ const Infos = () => {
                 <p className="p__opensans" style={{ color: "#fff" }}>
                     <a href='/cookies'>Polityka Cookies</a></p>
             </div>
-            <div class="app_footer-copyright">
+            <div className="app_footer-copyright">
                 <p p className="p__opensans" style={{ color: "#fff", fontWeight: "700" }}> Copyright 2023 © Dr Kociszewski<br></br>
                     – All rights reserved –</p>
             </div>

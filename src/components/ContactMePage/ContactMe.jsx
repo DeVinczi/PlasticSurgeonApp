@@ -6,7 +6,7 @@ import Infos from '../../container/Infos/Infos'
 
 function ContactMePage() {
     return (
-        <div class="ContactMePage">
+        <div className="ContactMePage">
             <InfoNavbar />
             <Navbar />
             <ContactMe />

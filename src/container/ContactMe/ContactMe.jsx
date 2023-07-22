@@ -26,7 +26,7 @@ const ContactMe = () => {
             </div>
 
             <div className='app__contact-wrapper'>
-                <div class="app__ppp p__opensans style-it-fourth">
+                <div className="app__ppp p__opensans style-it-fourth">
                     <p>Siedziba firmy</p>
                     <p>35-700 Gdańsk</p>
                     <p>ul. Korsarzy 9a</p>

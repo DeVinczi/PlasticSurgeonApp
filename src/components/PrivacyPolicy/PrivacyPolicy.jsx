@@ -4,7 +4,7 @@ import { Navbar } from '..'
 
 function PrivacyPolicyPage() {
     return (
-        <div class="PolicyPrivacy">
+        <div className="PolicyPrivacy">
             <InfoNavbar />
             <Navbar />
         </div>

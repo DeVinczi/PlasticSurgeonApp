@@ -4,7 +4,7 @@ import { Navbar } from '..'
 
 function homePage() {
     return (
-        <div class="Home">
+        <div className="Home">
             <InfoNavbar />
             <Navbar />
             <Header />

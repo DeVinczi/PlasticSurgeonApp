@@ -4,7 +4,7 @@ import { Navbar } from '..'
 
 function ConsultationPage() {
     return (
-        <div class="ConsultationPage">
+        <div className="ConsultationPage">
             <InfoNavbar />
             <Navbar />
         </div>

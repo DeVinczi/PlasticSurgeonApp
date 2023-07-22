@@ -6,7 +6,7 @@ import Infos from '../../container/Infos/Infos'
 
 function PricePage() {
     return (
-        <div class="PricePage">
+        <div className="PricePage">
             <InfoNavbar />
             <Navbar />
             <Pricing />

@@ -4,7 +4,7 @@ import { Navbar } from '..'
 
 function CookiesPolicyPage() {
     return (
-        <div class="CookiesPolicyPage">
+        <div className="CookiesPolicyPage">
             <InfoNavbar />
             <Navbar />
         </div>

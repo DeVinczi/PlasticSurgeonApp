@@ -4,7 +4,7 @@ import { Navbar } from '..'
 
 function RulesOfServicePage() {
     return (
-        <div class="RulesOfServicePage">
+        <div className="RulesOfServicePage">
             <InfoNavbar />
             <Navbar />
         </div>
