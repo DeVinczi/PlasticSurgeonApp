@@ -4,6 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdClose } from 'react-icons/md';
 import images from '../../constants/images';
 import { BiMap } from "react-icons/bi"
+import { Link } from "react-router-dom";
 import { BsFacebook, BsFillTelephoneFill, BsInstagram } from "react-icons/bs"
 
 const openFacebook = () => {
@@ -34,40 +35,39 @@ const Navbar = () => {
     return (
         <nav className="app__navbar">
             <div className="app__navbar-logo">
-                <a href="/">
+                <Link to="/">
                     <img src={images.logoWhite} alt="app_logo" />
-                </a>
+                </Link>
             </div>
             <ul className="app__navbar-links">
                 <li className="p__opensans">
-                    <a href="oferta">Oferta</a>
+                    <Link to="/oferta">Oferta</Link>
                 </li>
                 <li className="p__opensans">
-                    <a href="konsultacja-online">Konsultacja </a>
+                    <Link to="/konsultacja-online">Konsultacja </Link>
                 </li>
                 <li className="p__opensans">
-                    <a href="cennik">Cennik</a>
+                    <Link to="/cennik">Cennik</Link>
                 </li>
                 <li className="p__opensans">
-                    <a href="metamorfozy">Metamorfozy</a>
+                    <Link to="/metamorfozy">Metamorfozy</Link>
                 </li>
                 <li className="p__opensans">
-                    <a href="o-mnie">O Mnie</a>
+                    <Link to="/o-mnie">O Mnie</Link>
                 </li>
                 <li className="p__opensans">
-                    <a href="kontakt">Kontakt</a>
+                    <Link to="/kontakt">Kontakt</Link>
                 </li>
             </ul>
             <div className="app__navbar-login">
-                <a href="/login" className="p__opensans"></a>
+                <Link to="/login" className="p__opensans"></Link>
                 <div />
-                <a
-                    href="/umow-wizyte"
+                <Link to="/umow-wizyte"
                     className="p__opensans custom__button action-button"
                     style={{ color: '#ffffff' }}
                 >
                     Umów wizytę
-                </a>
+                </Link>
             </div>
             <div className="app__navbar-smallscreen">
                 <GiHamburgerMenu
@@ -83,27 +83,27 @@ const Navbar = () => {
                         />
                         <ul className="app__navbar-smallscreen_links">
                             <li className="p__opensans">
-                                <a href="/">
+                                <Link to="/">
                                     <img src={images.logoK} alt="app_logo-small" />
-                                </a>
+                                </Link>
                             </li>
                             <li className="p__opensans">
-                                <a href="oferta">Oferta</a>
+                                <Link to="/oferta">Oferta</Link>
                             </li>
                             <li className="p__opensans">
-                                <a href="konsultacja-online">Konsultacja</a>
+                                <Link to="/konsultacja-online">Konsultacja</Link>
                             </li>
                             <li className="p__opensans">
-                                <a href="cennik">Cennik</a>
+                                <Link to="/cennik">Cennik</Link>
                             </li>
                             <li className="p__opensans">
-                                <a href="metamorfozy">Metamorfozy</a>
+                                <Link to="/metamorfozy">Metamorfozy</Link>
                             </li>
                             <li className="p__opensans">
-                                <a href="o-mnie">O Mnie</a>
+                                <Link to="/o-mnie">O Mnie</Link>
                             </li>
                             <li className="p__opensans">
-                                <a href="kontakt">Kontakt</a>
+                                <Link to="/kontakt">Kontakt</Link>
                             </li>
                             <div className="app_navbar-smallscreen-infos">
                                 <div className='app__navbar-smallscreen-address' style={{ color: 'white' }}>

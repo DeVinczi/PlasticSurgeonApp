@@ -1,7 +1,7 @@
 {
   "name": "plasticsurgeonapplication",
   "version": "0.1.0",
-  "homepage": "https://devinczi.github.io/",
+  "homepage": "https://devinczi.github.io/PlasticSurgeonApp/#/kontakt",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
